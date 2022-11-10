@@ -180,7 +180,8 @@ Prompt orders
     #'raindrops,   by Ian McQue improvisational, wet,  minimalist, oiled,  kaws, mondrian,  mondrian, octane hyperrealism photorealistic airbrush collage painting, black background with stars, neon fluorescent colors, art deco, retro-scifi cave, noir, clean',
     
     # high_sin_early
-    #'neon fluorescent colors,  colorsmoke,   by Ian McQue improvisational,  kaws,   minimalist,  hannah af klint perfect geometry abstract acrylic,   highly detailed,  gradients',
+    #'pyramid hoodvisor, abstract flames,    by Ian McQue improvisational,  peaceful melody,   minimalist,  harmony aesthetics,   kaws,  firey gradients,    rainbow gradient lighting,  by Ian McQue improvisational,   mondrian,  golden light,  Burning clouds,  forms made of fire, '
+    #'neon fluorescent colors, abstract flames,    by Ian McQue improvisational,  heavenly objects,   raindrops,  peaceful melody,   wet,  harmony aesthetics,   kaws,  firey gradients,  Burning clouds,  warm heavenly aura,  thunder and fire rain,  forms made of fire, '
     
     # low_sin_early
     #'neon fluorescent colors, JWST Futuristic lasers tracing,   JWST vector art,  mondrian,   rule of thirds,  octane hyperrealism photorealistic airbrush collage painting,   highly detailed,  retro-scifi cave'
@@ -443,7 +444,7 @@ def prompt_mixer(prompt1, prompt2, fraction):
     
 #prompt1 = 'JWST Futuristic lasers tracing, colorsmoke, pyramid hoodvisor, raindrops, kaws, mondrian, hannah af klint perfect geometry abstract acrylic, by Ian McQue improvisational, octane hyperrealism photorealistic airbrush collage painting, monochrome, neon fluorescent colors, minimalist, rule of thirds, retro-scifi cave, rainbow gradient lighting'
 prompt1 = 'neon fluorescent colors,  pyramid hoodvisor,   by Ian McQue improvisational,  raindrops,  wet,  minimalist,  kaws,   rainbow gradient lighting,  mondrian, Burning clouds, thunder and fire rain,'
-prompt2 = 'A beautiful hyper realistic detailled matte painting of a fiery torrent of wind overflowing with yellow energy, firey gradients, by Ian McQue improvisational, warm heavenly aura, golden light, forms made of fire, forms of gold'
+prompt2 = 'abstract flames, heavenly objects, peaceful melody, harmony aesthetics, firey gradients, by Ian McQue improvisational, warm heavenly aura, golden light, forms made of fire, forms of gold'
 
 for i in range(20):
     prompt_mixer(prompt1, prompt2, .75)
